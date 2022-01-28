@@ -61,14 +61,14 @@ We cannot reject our null hypothesis at a 0.01 significance level. Not all of ou
 
 As our number of critics increases, the review score goes up. For every 100 critics the review score goes up by .2. As film length increases, the review score also goes up. For every 100 additional minutes, the review score increases by 1.4. Both increases in budget and number of Facebook likes have no or an insignificant effect on review scores. Our model does not explain much of the variation in our IMDB scores (R2 = .1897).
 
-<center>
 <h1 align="center">Regression Diagnositics</h1>
-<img src="/Residuals vs Fitted.png" alt="Fitted"/>
+
+<p align="center">
+  <img src="/Residuals vs Fitted.png" alt="Fitted"/>
 <img src="/Normal Q-Q.png" alt="Q-Q"/>
 <img src="/Scale-Location.png" alt="Scale"/>
 <img src="/Residuals vs Leverage.png" alt="Leverage"/>
-</center>
-
+</p>
  
  
  
