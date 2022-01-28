@@ -38,6 +38,7 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 
 <h1 align="center">Review Score Multiple Linear Regression Model</h1>
 <table align="center">
+
 | Dependent variable: | IMDB Score |
 | --- 	                | :-: |
 | Number of Critics     | 0.002*** (0.0001)|
