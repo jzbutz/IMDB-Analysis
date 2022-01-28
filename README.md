@@ -45,25 +45,15 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 | Budget        | -0.000* (0.000) |
 | Duration	        | 0.014*** (0.001) |
 | Constant | 4.564*** (0.072) |
-
-Observations	4,517
-
-R2	0.190
-
-Adjusted R2	0.189
-
-Residual Std. Error	1.002 (df = 4512)
-
-F Statistic	264.103*** (df = 4; 4512)
+| Observations | 4,517 |
+| R2 | 0.190 |
+| Adjusted R2 | 0.189 |
+| Residual Std. Error | 1.002 (df = 4512) |
+| F Statistic | 264.103*** (df = 4; 4512) |
 
 Note:	*p<0.1; **p<0.05; ***p<0.01
 
 From our findings, we can determine that our model is statistically significant (p-value: < 2.2e-16) and reliable (VIF = 1.075) however not all of our IV’s had a statistically significant relationship with IMDB score. Both budget and Facebook likes were not statistically significant (p-value: 0.8453 & 0.0973, respectively) and did not have a strong correlation (0.086 & 0.031, respectively).
-
-
-
-
-
 
 We cannot reject our null hypothesis at a 0.01 significance level. Not all of our independent variables had an effect on review score. We can say that both the number of critics and the length of the film have a weak but positive relationship with IMDB score (r = .31, r =  0.26).
 
