@@ -37,13 +37,16 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 	(DV) ̂  = 6.046250 + 0.002 * IV1 + 0 * IV2 + 0 * IV3 + 0.014 * IV4 where DV = IMDB score and IV1 = number of critics, IV2 = Facebook likes, IV3 = budget, and IV4 = duration.
 
 <h1 align="center">Review Score Multiple Linear Regression Model</h1>
-Dependent variable: IMDB Score
+
+| Dependent variable: | IMDB Score |
 | --- 	                | :-: |
 | Number of Critics     | 0.002*** (0.0001)|
 | Facebook Likes  		| -0.00000 (0.00000)   |
 | Budget        | -0.000* (0.000) |
 | Duration	        | 0.014*** (0.001) |
 | Constant | 4.564*** (0.072) |
+
+
 
 Review Score Multiple Linear Regression Model
 
