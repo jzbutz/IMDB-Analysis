@@ -26,7 +26,7 @@ Our dataset is missing 50 values out of 5043, our analysis should not be affecte
 
     Table 1: Summary Statistics
 | Variable | n | min | max | median | mean | std |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- 	   | --- | --- | --- | --- | --- | --- | --- | --- |
 | Number of Critics | 4993 | 1 | 813 | 110 | 140.2 | 121.6 |
 | IMDB Score | 4993 | 1.6 | 9.5 | 6.6 | 6.442 | 1.125 |
 | Facebook Likes | 4993 | 0 | 656730 | 3090 | 9699 | 18163.8 |
