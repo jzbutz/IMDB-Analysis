@@ -15,11 +15,22 @@ Our null hypothesis (H0) is that the number of critics, Facebook likes, budget, 
 Our dataset is missing 50 values out of 5043, our analysis should not be affected. Our independent variables are number of critical reviews, Facebook likes, budget, and film duration. Our dependent variable is IMDB score. Descriptions of the variables are as follows:
 
 •	The number of critical reviews is a measure of the count of film reviews. 
+
 •	The Facebook likes are the number of Facebook likes a cast member has obtained through their Facebook social media presence.
+
 •	The budget is the money spent producing a film. 
+
 •	The film duration is the length of a film in minutes. 
+
 •	The IMDB score is a review score measurement, used to determine the quality of a film. 
 
+    Table 1: Summary Statistics
+| Variable | n | min | max | median | mean | std |
+| Number of Critics | 4993 | 1 | 813 | 110 | 140.2 | 121.6 |
+| IMDB Score | 4993 | 1.6 | 9.5 | 6.6 | 6.442 | 1.125 |
+| Facebook Likes | 4993 | 0 | 656730 | 3090 | 9699 | 18163.8 |
+| Budget | 4993 | $218.00 | $12,220,000,000.00 | $20,000,000.00 | $39,750,000.00 | $206,114,898.00 |
+| Duration (in minutes) | 4993 | 7 | 511 | 103 | 107.2 | 25.19744 |
 
 Table 1: Summary Statistics
 Variable	n	min	max	median	mean	std
