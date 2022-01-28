@@ -51,8 +51,8 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 | Residual Std. Error | 1.002 (df = 4512) |
 | F Statistic | 264.103*** (df = 4; 4512) |
 
-
-<table style="text-align:center" align="center"><caption><strong>Review Score Multiple Linear Regression Model</strong></caption>
+<h1 align="center">Review Score Multiple Linear Regression Model</h1>
+<table style="text-align:center" align="center">
 <tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
 <tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
 <tr><td style="text-align:left"></td><td>imdb_score</td></tr>
@@ -76,7 +76,6 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 <tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.189</td></tr>
 <tr><td style="text-align:left">Residual Std. Error</td><td>1.002 (df = 4512)</td></tr>
 <tr><td style="text-align:left">F Statistic</td><td>264.103<sup>***</sup> (df = 4; 4512)</td></tr>
-<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
 </table>
 
 Note:	*p<0.1; **p<0.05; ***p<0.01
