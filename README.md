@@ -23,7 +23,8 @@ Our dataset is missing 50 values out of 5043, our analysis should not be affecte
 
 •	The IMDB score is a review score measurement, used to determine the quality of a film. 
 
-    				Table 1: Summary Statistics
+<h1 align="center">Table 1: Summary Statistics</h1>
+
 | Variable 	        | n | min | max | median | mean | std |
 | --- 	                | - | --- | --- | ---    | ---  | --- |
 | Number of Critics     | 4993 | 1 | 813 | 110 | 140.2 | 121.6 |
