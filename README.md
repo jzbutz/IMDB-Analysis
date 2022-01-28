@@ -46,34 +46,14 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 | Duration	        | 0.014*** (0.001) |
 | Constant | 4.564*** (0.072) |
 
-
-
-Review Score Multiple Linear Regression Model
-
-	Dependent variable:
-	
-	IMDB Score
-
-Number of Critics	0.002***
-	(0.0001)
-	
-Facebook Likes	-0.00000
-	(0.00000)
-	
-Budget	-0.000*
-	(0.000)
-	
-Duration	0.014***
-	(0.001)
-	
-Constant	4.564***
-	(0.072)
-	
-
 Observations	4,517
+
 R2	0.190
+
 Adjusted R2	0.189
+
 Residual Std. Error	1.002 (df = 4512)
+
 F Statistic	264.103*** (df = 4; 4512)
 
 Note:	*p<0.1; **p<0.05; ***p<0.01
