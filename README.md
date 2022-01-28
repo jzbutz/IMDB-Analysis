@@ -38,6 +38,7 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 
 <h1 align="center">Review Score Multiple Linear Regression Model</h1>
 
+<center>
 | Dependent variable: | IMDB Score |
 | --- 	                | :-: |
 | Number of Critics     | 0.002*** (0.0001)|
@@ -50,7 +51,7 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 | Adjusted R2 | 0.189 |
 | Residual Std. Error | 1.002 (df = 4512) |
 | F Statistic | 264.103*** (df = 4; 4512) |
-
+</center>
 Note:	*p<0.1; **p<0.05; ***p<0.01
 
 From our findings, we can determine that our model is statistically significant (p-value: < 2.2e-16) and reliable (VIF = 1.075) however not all of our IV’s had a statistically significant relationship with IMDB score. Both budget and Facebook likes were not statistically significant (p-value: 0.8453 & 0.0973, respectively) and did not have a strong correlation (0.086 & 0.031, respectively).
@@ -59,13 +60,13 @@ We cannot reject our null hypothesis at a 0.01 significance level. Not all of ou
 
 As our number of critics increases, the review score goes up. For every 100 critics the review score goes up by .2. As film length increases, the review score also goes up. For every 100 additional minutes, the review score increases by 1.4. Both increases in budget and number of Facebook likes have no or an insignificant effect on review scores. Our model does not explain much of the variation in our IMDB scores (R2 = .1897).
 
-
+<center>
 <h1 align="center">Regression Diagnositics</h1>
 <img src="/Residuals vs Fitted.png" alt="Fitted"/>
 <img src="/Normal Q-Q.png" alt="Q-Q"/>
 <img src="/Scale-Location.png" alt="Scale"/>
 <img src="/Residuals vs Leverage.png" alt="Leverage"/>
-
+</center>
 
  
  
