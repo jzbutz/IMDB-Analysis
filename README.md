@@ -61,6 +61,12 @@ As our number of critics increases, the review score goes up. For every 100 crit
 
 
 Regression Diagnostics
+
+<img src="/docs/Scale-Location.png" alt="My cool logo"/>
+<img src="/docs/logo.png" alt="My cool logo"/>
+<img src="/docs/logo.png" alt="My cool logo"/>
+<img src="/docs/logo.png" alt="My cool logo"/>
+
  
  
  
