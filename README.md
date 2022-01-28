@@ -27,11 +27,11 @@ Our dataset is missing 50 values out of 5043, our analysis should not be affecte
 
 | Variable 	        | n | min | max | median | mean | std |
 | --- 	                | :-: | :---: | :---: | :---:    | :---:  | :---: |
-| Number of Critics     | :4993: | :1: | :813: | :110: | :140.2: | :121.6: |
-| IMDB Score 		| :4993:     | :1.6: | :9.5: | :6.6: | :6.442: | :1.125: |
-| Facebook Likes        | :4993: | :0: | :656730: | :3090: | :9699: | :18163.8: |
-| Budget 	        | :4993: | :$218.00: | :$12,220,000,000.00: | :$20,000,000.00: | :$39,750,000.00: | :$206,114,898.00 |
-| Duration (in minutes) | :4993: | :7: | :511: | :103: | :107.2: | :25.19744: |
+| Number of Critics     | 4993 | 1 | 813 | 110 | 140.2 | 121.6 |
+| IMDB Score 		| 4993     | 1.6 | 9.5 | 6.6 | 6.442 | 1.125 |
+| Facebook Likes        | 4993 | 0 | 656730 | 3090 | 9699 | 18163.8 |
+| Budget 	        | 4993 | $218.00 | $12,220,000,000.00 | $20,000,000.00 | $39,750,000.00 | $206,114,898.00 |
+| Duration (in minutes) | 4993 | 7 | 511 | 103 | 107.2 | 25.19744 |
 
 
 We have not violated any assumptions (see regression diagnostics at the bottom of the page) and may proceed with our multiple linear regression. We will use an alpha of 0.01. Our regression model is:
