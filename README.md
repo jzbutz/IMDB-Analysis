@@ -1,6 +1,9 @@
 # IMDB Analysis
  Statistical Analysis for 5000 Sample Metadata Dataset
 
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 Impact analysis for IMDB scores
 
@@ -25,12 +28,12 @@ Our dataset is missing 50 values out of 5043, our analysis should not be affecte
 •	The IMDB score is a review score measurement, used to determine the quality of a film. 
 
     Table 1: Summary Statistics
-| Variable | n | min | max | median | mean | std |
-| --- 	   | --- | --- | --- | --- | --- | --- | --- | --- |
-| Number of Critics | 4993 | 1 | 813 | 110 | 140.2 | 121.6 |
-| IMDB Score | 4993 | 1.6 | 9.5 | 6.6 | 6.442 | 1.125 |
-| Facebook Likes | 4993 | 0 | 656730 | 3090 | 9699 | 18163.8 |
-| Budget | 4993 | $218.00 | $12,220,000,000.00 | $20,000,000.00 | $39,750,000.00 | $206,114,898.00 |
+| Variable 	        | n | min | max | median | mean | std |
+| --- 	                | - | --- | --- | ---    | ---  | --- |
+| Number of Critics     | 4993 | 1 | 813 | 110 | 140.2 | 121.6 |
+| IMDB Score | 4993     | 1.6 | 9.5 | 6.6 | 6.442 | 1.125 |
+| Facebook Likes        | 4993 | 0 | 656730 | 3090 | 9699 | 18163.8 |
+| Budget 	        | 4993 | $218.00 | $12,220,000,000.00 | $20,000,000.00 | $39,750,000.00 | $206,114,898.00 |
 | Duration (in minutes) | 4993 | 7 | 511 | 103 | 107.2 | 25.19744 |
 
 Table 1: Summary Statistics
