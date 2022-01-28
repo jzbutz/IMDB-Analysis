@@ -36,7 +36,7 @@ Our dataset is missing 50 values out of 5043, our analysis should not be affecte
 
 We have not violated any assumptions (see regression diagnostics at the bottom of the page) and may proceed with our multiple linear regression. We will use an alpha of 0.01. Our regression model is:
 
-(DV) ̂  = 6.046250 + 0.002 * IV1 + 0 * IV2 + 0 * IV3 + 0.014 * IV4 where DV = IMDB score and IV1 = number of critics, IV2 = Facebook likes, IV3 = budget, and IV4 = duration.
+	(DV) ̂  = 6.046250 + 0.002 * IV1 + 0 * IV2 + 0 * IV3 + 0.014 * IV4 where DV = IMDB score and IV1 = number of critics, IV2 = Facebook likes, IV3 = budget, and IV4 = duration.
 
 Review Score Multiple Linear Regression Model
 
