@@ -37,7 +37,6 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 	(DV) ̂  = 6.046250 + 0.002 * IV1 + 0 * IV2 + 0 * IV3 + 0.014 * IV4 where DV = IMDB score and IV1 = number of critics, IV2 = Facebook likes, IV3 = budget, and IV4 = duration.
 
 <h1 align="center">Review Score Multiple Linear Regression Model</h1>
-<table align="center">
 
 | Dependent variable: | IMDB Score |
 | --- 	                | :-: |
@@ -52,7 +51,34 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 | Residual Std. Error | 1.002 (df = 4512) |
 | F Statistic | 264.103*** (df = 4; 4512) |
 
+
+<table style="text-align:center"><caption><strong>Review Score Multiple Linear Regression Model</strong></caption>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>imdb_score</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">num_critic_for_reviews</td><td>0.002<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.0001)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">cast_total_facebook_likes</td><td>-0.00000</td></tr>
+<tr><td style="text-align:left"></td><td>(0.00000)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">budget</td><td>-0.000<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.000)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">duration</td><td>0.014<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td style="text-align:left">Constant</td><td>4.564<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.072)</td></tr>
+<tr><td style="text-align:left"></td><td></td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>4,517</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.190</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.189</td></tr>
+<tr><td style="text-align:left">Residual Std. Error</td><td>1.002 (df = 4512)</td></tr>
+<tr><td style="text-align:left">F Statistic</td><td>264.103<sup>***</sup> (df = 4; 4512)</td></tr>
+<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
 </table>
+
 Note:	*p<0.1; **p<0.05; ***p<0.01
 
 From our findings, we can determine that our model is statistically significant (p-value: < 2.2e-16) and reliable (VIF = 1.075) however not all of our IV’s had a statistically significant relationship with IMDB score. Both budget and Facebook likes were not statistically significant (p-value: 0.8453 & 0.0973, respectively) and did not have a strong correlation (0.086 & 0.031, respectively).
