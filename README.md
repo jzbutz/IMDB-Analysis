@@ -52,7 +52,7 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 | F Statistic | 264.103*** (df = 4; 4512) |
 
 
-<table style="text-align:center"><caption><strong>Review Score Multiple Linear Regression Model</strong></caption>
+<table style="text-align:center" align="center"><caption><strong>Review Score Multiple Linear Regression Model</strong></caption>
 <tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
 <tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
 <tr><td style="text-align:left"></td><td>imdb_score</td></tr>
