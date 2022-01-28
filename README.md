@@ -36,25 +36,17 @@ We have not violated any assumptions (see regression diagnostics at the bottom o
 
 	(DV) ̂  = 6.046250 + 0.002 * IV1 + 0 * IV2 + 0 * IV3 + 0.014 * IV4 where DV = IMDB score and IV1 = number of critics, IV2 = Facebook likes, IV3 = budget, and IV4 = duration.
 
-Stargazer Table
+<h1 align="center">Review Score Multiple Linear Regression Model</h1>
+	Dependent variable:
+	
+	IMDB Score:
+| --- 	                | :-: |
+| Number of Critics     | 0.002*** (0.0001)|
+| Facebook Likes  		| -0.00000 (0.00000)   |
+| Budget        | -0.000* (0.000) |
+| Duration	        | 0.014*** (0.001) |
+| Constant | 4.564*** (0.072) |
 
-<table style="text-align:center"><caption><strong>Review Score Model</strong></caption>
-<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td><em>Dependent variable:</em></td></tr>
-<tr><td></td><td colspan="1" style="border-bottom: 1px solid black"></td></tr>
-<tr><td style="text-align:left"></td><td>imdb_score</td></tr>
-<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">num_critic_for_reviews</td><td>0.003<sup>***</sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.0001)</td></tr>
-<tr><td style="text-align:left"></td><td></td></tr>
-<tr><td style="text-align:left">Constant</td><td>6.046<sup>***</sup></td></tr>
-<tr><td style="text-align:left"></td><td>(0.023)</td></tr>
-<tr><td style="text-align:left"></td><td></td></tr>
-<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>4,993</td></tr>
-<tr><td style="text-align:left">R<sup>2</sup></td><td>0.093</td></tr>
-<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.093</td></tr>
-<tr><td style="text-align:left">Residual Std. Error</td><td>1.068 (df = 4991)</td></tr>
-<tr><td style="text-align:left">F Statistic</td><td>513.030<sup>***</sup> (df = 1; 4991)</td></tr>
-<tr><td colspan="2" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
-</table>
 Review Score Multiple Linear Regression Model
 
 	Dependent variable:
